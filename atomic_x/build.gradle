@@ -1,6 +1,5 @@
 plugins {
     id 'com.android.library'
-    id 'org.jetbrains.kotlin.android'
 }
 
 
@@ -30,11 +29,6 @@ android {
         sourceCompatibility javaVersion
         targetCompatibility javaVersion
     }
-
-    kotlinOptions {
-        jvmTarget = javaVersion
-    }
-
 
     sourceSets {
         main {

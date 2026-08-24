@@ -1,9 +1,11 @@
 package com.example.tmcalldemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
 
+import com.example.tmcalldemo.test1.TestActivity1;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +21,7 @@ import com.example.tmcalldemo.databinding.ActivityMainBinding;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,5 +39,10 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+    public void onTest1(View v) {
+        startActivity(new Intent(this, TestActivity1.class));
+    }
+
 
 }
