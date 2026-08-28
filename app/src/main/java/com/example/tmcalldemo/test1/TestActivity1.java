@@ -12,6 +12,10 @@ import androidx.core.view.WindowInsetsCompat;
 import com.example.tmcalldemo.R;
 import com.example.tmcalldemo.databinding.ActivityMainBinding;
 
+/**
+ * 无UI接入
+ * https://cloud.tencent.com/document/product/647/128196
+ */
 public class TestActivity1 extends AppCompatActivity {
 
     @Override

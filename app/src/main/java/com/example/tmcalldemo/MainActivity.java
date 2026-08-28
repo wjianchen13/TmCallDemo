@@ -40,6 +40,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * 无UI接入
+     * @param v
+     */
     public void onTest1(View v) {
         startActivity(new Intent(this, TestActivity1.class));
     }

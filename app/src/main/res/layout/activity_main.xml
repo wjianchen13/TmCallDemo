@@ -23,7 +23,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="测试1"
+        android:text="无UI接入"
         android:onClick="onTest1"
         />
 
