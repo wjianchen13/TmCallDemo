@@ -5,8 +5,10 @@ import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentActivity
+import com.example.tmcalldemo.R
 import com.tencent.cloud.tuikit.engine.call.TUICallDefine
-import com.tencent.qcloud.tuikit.tuicallkit.demo.R
+import com.tencent.qcloud.tuikit.tuicallkit.call.IncomingCallAction
+import com.tencent.qcloud.tuikit.tuicallkit.call.IncomingCallInfo
 import com.tencent.qcloud.tuikit.tuicallkit.manager.CallManager
 import com.trtc.tuikit.common.livedata.Observer
 

@@ -19,14 +19,14 @@ import androidx.lifecycle.Lifecycle
 import com.tencent.cloud.tuikit.engine.call.TUICallDefine
 import com.tencent.qcloud.tuicore.permission.PermissionCallback
 import com.tencent.qcloud.tuicore.util.TUIBuild
+import com.example.tmcalldemo.call.view.GroupCallView
+import com.example.tmcalldemo.call.view.SingleCallView
 import com.tencent.qcloud.tuikit.tuicallkit.R
 import com.tencent.qcloud.tuikit.tuicallkit.common.data.Constants
 import com.tencent.qcloud.tuikit.tuicallkit.common.data.Logger
 import com.tencent.qcloud.tuikit.tuicallkit.common.utils.DeviceUtils
 import com.tencent.qcloud.tuikit.tuicallkit.common.utils.KeyMetrics
 import com.tencent.qcloud.tuikit.tuicallkit.common.utils.PermissionRequest
-import com.tencent.qcloud.tuikit.tuicallkit.call.view.GroupCallView
-import com.tencent.qcloud.tuikit.tuicallkit.call.view.SingleCallView
 import com.tencent.qcloud.tuikit.tuicallkit.manager.CallManager
 import com.tencent.qcloud.tuikit.tuicallkit.state.GlobalState
 import com.tencent.qcloud.tuikit.tuicallkit.state.ViewState

@@ -6,6 +6,11 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="app_incoming_call_title">来电提醒</string>
+    <string name="app_incoming_video_call_message">%1$s 邀请你视频通话</string>
+    <string name="app_incoming_audio_call_message">%1$s 邀请你语音通话</string>
+    <string name="app_incoming_call_accept">接通</string>
+    <string name="app_incoming_call_cancel">拒绝</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris

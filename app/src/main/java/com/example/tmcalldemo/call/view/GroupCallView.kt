@@ -8,7 +8,6 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
-import com.example.tmcalldemo.R
 import com.tencent.cloud.tuikit.engine.call.TUICallDefine
 import com.tencent.qcloud.tuicore.TUICore
 import com.tencent.qcloud.tuikit.tuicallkit.R

@@ -27,7 +27,7 @@
             android:name=".test1.TestActivity1" />
 
         <activity
-            android:name="com.tencent.qcloud.tuikit.tuicallkit.call.CallMainActivity"
+            android:name=".call.CallMainActivity"
             android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
             android:launchMode="singleTask"
             android:supportsPictureInPicture="true"
