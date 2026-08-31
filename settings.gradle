@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "TmCallDemo"
 include ':app'
+include ':tuicallkit-kt'
