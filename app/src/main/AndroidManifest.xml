@@ -24,7 +24,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".test1.TestActivity1" />
+            android:name=".test1.TestActivity1"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
 
     </application>
 

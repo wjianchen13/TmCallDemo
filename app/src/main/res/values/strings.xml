@@ -12,6 +12,37 @@
     <string name="app_incoming_call_accept">接通</string>
     <string name="app_incoming_call_cancel">拒绝</string>
 
+    <string name="trtc_test_title">TRTC 1V1 音视频测试</string>
+    <string name="trtc_user_id_hint">当前用户 ID，例如 11</string>
+    <string name="trtc_room_id_hint">房间号，例如 room_1001</string>
+    <string name="trtc_video_call">进入视频通话</string>
+    <string name="trtc_audio_call">进入语音通话</string>
+    <string name="trtc_status_idle">当前未进入房间</string>
+    <string name="trtc_status_entering">正在进入 TRTC 房间…</string>
+    <string name="trtc_status_exiting">正在退出房间…</string>
+    <string name="trtc_status_in_room">进房成功，耗时 %1$d ms，等待对方加入</string>
+    <string name="trtc_test_hint">两台手机使用不同用户 ID，输入相同房间号，并选择相同通话类型</string>
+    <string name="trtc_waiting_remote_video">视频通话已启动，等待对方进入同一房间</string>
+    <string name="trtc_audio_calling">语音通话已启动，等待对方进入同一房间</string>
+    <string name="trtc_remote_joined">用户 %1$s 已加入房间</string>
+    <string name="trtc_remote_left">用户 %1$s 已离开房间</string>
+    <string name="trtc_exited_room">已退出 TRTC 房间</string>
+    <string name="trtc_error">错误 %1$d：%2$s</string>
+    <string name="trtc_mute_microphone">静音</string>
+    <string name="trtc_unmute_microphone">取消静音</string>
+    <string name="trtc_close_camera">关闭摄像头</string>
+    <string name="trtc_open_camera">打开摄像头</string>
+    <string name="trtc_switch_camera">切换摄像头</string>
+    <string name="trtc_use_receiver">使用听筒</string>
+    <string name="trtc_use_speaker">使用扬声器</string>
+    <string name="trtc_hangup">挂断</string>
+    <string name="trtc_permission_denied">请允许通话所需的麦克风或摄像头权限后再试</string>
+    <string name="trtc_usersig_failed">生成测试 UserSig 失败</string>
+    <string name="trtc_user_id_required">请输入当前用户 ID</string>
+    <string name="trtc_room_id_required">请输入房间号</string>
+    <string name="trtc_room_id_too_long">房间号不能超过 64 字节</string>
+    <string name="trtc_already_in_room">当前已经在通话中</string>
+
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus

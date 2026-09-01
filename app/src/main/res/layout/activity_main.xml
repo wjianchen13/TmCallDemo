@@ -23,7 +23,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="无UI接入"
+        android:text="TRTC 1V1 音视频测试"
         android:onClick="onTest1"
         />
 

@@ -1,22 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#101216"
     android:fitsSystemWindows="true"
+    android:keepScreenOn="true"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:padding="16dp"
+    tools:context=".test1.TestActivity1">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="腾讯音视频"
-        />
+        android:text="@string/trtc_test_title"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
+    <EditText
+        android:id="@+id/et_user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#8FA3BF"
+        android:hint="@string/trtc_user_id_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9AA5B1" />
 
+    <EditText
+        android:id="@+id/et_room_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8FA3BF"
+        android:hint="@string/trtc_room_id_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9AA5B1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_video_call"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/trtc_video_call" />
+
+        <Button
+            android:id="@+id/btn_audio_call"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="@string/trtc_audio_call" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_call_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/trtc_status_idle"
+        android:textColor="#C9D4E2"
+        android:textSize="14sp" />
+
+    <FrameLayout
+        android:id="@+id/video_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:background="#07090C">
+
+        <com.tencent.rtmp.ui.TXCloudVideoView
+            android:id="@+id/remote_video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_media_placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="24dp"
+            android:text="@string/trtc_test_hint"
+            android:textColor="#9AA5B1"
+            android:textSize="15sp" />
+
+        <com.tencent.rtmp.ui.TXCloudVideoView
+            android:id="@+id/local_video_view"
+            android:layout_width="110dp"
+            android:layout_height="165dp"
+            android:layout_gravity="top|end"
+            android:layout_margin="10dp"
+            android:background="#252A32"
+            android:elevation="8dp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="8dp">
+
+            <Button
+                android:id="@+id/btn_mute_microphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="@string/trtc_mute_microphone" />
+
+            <Button
+                android:id="@+id/btn_toggle_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:enabled="false"
+                android:text="@string/trtc_close_camera" />
+
+            <Button
+                android:id="@+id/btn_switch_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:enabled="false"
+                android:text="@string/trtc_switch_camera" />
+
+            <Button
+                android:id="@+id/btn_toggle_speaker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:enabled="false"
+                android:text="@string/trtc_use_receiver" />
+
+            <Button
+                android:id="@+id/btn_hangup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:enabled="false"
+                android:text="@string/trtc_hangup" />
+        </LinearLayout>
+    </HorizontalScrollView>
 
 </LinearLayout>
