@@ -12,6 +12,9 @@ https://cloud.tencent.com/document/product/647/78739
 语聊采用这个方式，TRTC
 https://cloud.tencent.com/document/product/647/116545
 
+需要使用自定义信令，所以不能使用TUICallKit
+https://cloud.tencent.com/document/product/1640/81147
+
 
 
 
