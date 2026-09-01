@@ -37,7 +37,7 @@ android {
 }
 
 dependencies {
-    implementation project(':CallCore')
+    implementation project(':core')
     implementation libs.activity.ktx
     implementation libs.appcompat
     implementation libs.constraintlayout
