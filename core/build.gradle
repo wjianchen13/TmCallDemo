@@ -24,6 +24,8 @@ android {
 
 dependencies {
     api "com.tencent.liteav:LiteAVSDK_TRTC:13.4.0.20477"
+    api "com.netease.nimlib:basesdk:10.10.1"
+    api "com.netease.nimlib:avsignalling:10.10.1"
     testImplementation libs.junit
     androidTestImplementation libs.espresso.core
     androidTestImplementation libs.ext.junit

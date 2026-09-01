@@ -24,20 +24,64 @@
         android:id="@+id/et_user_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:backgroundTint="#8FA3BF"
-        android:hint="@string/trtc_user_id_hint"
+        android:hint="@string/nim_user_id_hint"
         android:inputType="text"
         android:maxLines="1"
         android:textColor="#FFFFFF"
         android:textColorHint="#9AA5B1" />
 
     <EditText
-        android:id="@+id/et_room_id"
+        android:id="@+id/et_nim_token"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#8FA3BF"
-        android:hint="@string/trtc_room_id_hint"
+        android:hint="@string/nim_token_hint"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9AA5B1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nim_login" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="@string/nim_logout" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_login_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingVertical="4dp"
+        android:text="@string/nim_not_logged_in"
+        android:textColor="#C9D4E2"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/et_peer_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8FA3BF"
+        android:enabled="false"
+        android:hint="@string/nim_peer_id_hint"
         android:inputType="text"
         android:maxLines="1"
         android:textColor="#FFFFFF"
@@ -46,7 +90,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:orientation="horizontal">
 
         <Button
@@ -54,6 +97,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:enabled="false"
             android:text="@string/trtc_video_call" />
 
         <Button
@@ -62,6 +106,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_weight="1"
+            android:enabled="false"
             android:text="@string/trtc_audio_call" />
     </LinearLayout>
 
@@ -70,10 +115,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:padding="8dp"
-        android:text="@string/trtc_status_idle"
+        android:padding="6dp"
+        android:text="@string/nim_not_configured"
         android:textColor="#C9D4E2"
-        android:textSize="14sp" />
+        android:textSize="13sp" />
 
     <FrameLayout
         android:id="@+id/video_container"
@@ -95,7 +140,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:padding="24dp"
-            android:text="@string/trtc_test_hint"
+            android:text="@string/nim_media_idle"
             android:textColor="#9AA5B1"
             android:textSize="15sp" />
 

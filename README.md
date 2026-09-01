@@ -16,6 +16,7 @@ https://cloud.tencent.com/document/product/647/116545
 https://cloud.tencent.com/document/product/1640/81147
 
 
+之前说接入腾讯rtc，云信信令，然后突然说要接声网的1V1，那这个项目就先到这里，接入了云信，但是没有替换那么key
 
 
 # 文档
@@ -25,5 +26,10 @@ https://cloud.tencent.com/document/product/647/78729
 无UI接入，拨打第一通电话
 https://cloud.tencent.com/document/product/647/128196
 
+云信文档：
+https://doc.commsease.com/messaging/guide/DgyMTYzMDM?platform=android
+
+云信信令文档：
+https://doc.commsease.com/signaling/client-apis/jE4MDI2OTM?platform=client
 
 

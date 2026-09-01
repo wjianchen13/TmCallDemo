@@ -12,11 +12,11 @@
     <string name="app_incoming_call_accept">接通</string>
     <string name="app_incoming_call_cancel">拒绝</string>
 
-    <string name="trtc_test_title">TRTC 1V1 音视频测试</string>
+    <string name="trtc_test_title">云信信令 + TRTC 1V1 测试</string>
     <string name="trtc_user_id_hint">当前用户 ID，例如 11</string>
     <string name="trtc_room_id_hint">房间号，例如 room_1001</string>
-    <string name="trtc_video_call">进入视频通话</string>
-    <string name="trtc_audio_call">进入语音通话</string>
+    <string name="trtc_video_call">视频呼叫</string>
+    <string name="trtc_audio_call">语音呼叫</string>
     <string name="trtc_status_idle">当前未进入房间</string>
     <string name="trtc_status_entering">正在进入 TRTC 房间…</string>
     <string name="trtc_status_exiting">正在退出房间…</string>
@@ -42,6 +42,35 @@
     <string name="trtc_room_id_required">请输入房间号</string>
     <string name="trtc_room_id_too_long">房间号不能超过 64 字节</string>
     <string name="trtc_already_in_room">当前已经在通话中</string>
+
+    <string name="nim_user_id_hint">云信账号 ID，例如 11</string>
+    <string name="nim_token_hint">云信账号 Token</string>
+    <string name="nim_peer_id_hint">对方云信账号 ID，例如 12</string>
+    <string name="nim_login">登录云信</string>
+    <string name="nim_logout">退出登录</string>
+    <string name="nim_not_configured">请先在 NimDemoConfig 中填写云信 AppKey</string>
+    <string name="nim_not_logged_in">云信当前未登录</string>
+    <string name="nim_logging_in">正在登录云信…</string>
+    <string name="nim_login_success">云信登录成功：%1$s</string>
+    <string name="nim_logged_out">云信账号已退出</string>
+    <string name="nim_ready">云信已登录，可以发起或接收呼叫</string>
+    <string name="nim_calling_peer">正在呼叫 %1$s…</string>
+    <string name="nim_outgoing_ringing">呼叫已发送，等待对方接听…</string>
+    <string name="nim_incoming_ringing">收到新的来电邀请</string>
+    <string name="nim_accepting_call">正在接听并加入信令房间…</string>
+    <string name="nim_incoming_video_call">%1$s 邀请你进行视频通话</string>
+    <string name="nim_incoming_audio_call">%1$s 邀请你进行语音通话</string>
+    <string name="nim_peer_busy">对方正在通话中</string>
+    <string name="nim_call_rejected">对方已拒绝通话</string>
+    <string name="nim_call_rejected_by_me">已拒绝来电</string>
+    <string name="nim_call_cancelled">呼叫已取消</string>
+    <string name="nim_call_timeout">对方未接听，呼叫超时</string>
+    <string name="nim_call_ended">通话已结束</string>
+    <string name="nim_media_idle">登录后输入对方账号即可发起通话</string>
+    <string name="nim_error">云信错误 %1$d：%2$s</string>
+    <string name="nim_user_id_required">请输入云信账号 ID</string>
+    <string name="nim_token_required">请输入云信账号 Token</string>
+    <string name="nim_peer_id_required">请输入对方云信账号 ID</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
